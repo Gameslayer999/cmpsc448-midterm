@@ -28,6 +28,8 @@ RUNS = "results/runs"
 DEVICE = "mps" if torch.backends.mps.is_available() else ("cuda" if torch.cuda.is_available() else "cpu")
 MAX_LEN = {"input": 256, "output": 512}
 MAX_LEN_BOTH = {"input": 128, "output": 512}
+# MPS crashes in the conv backward pass on length-1 batches; extra padding is masked out anyway.
+MIN_BATCH_LEN = 5
 
 
 def set_seed(seed):
@@ -53,7 +55,7 @@ def make_batches(encoded, labels, batch_size, shuffle):
         random.shuffle(batches)
     for b in batches:
         lengths = torch.tensor([len(encoded[i]) for i in b])
-        x = torch.full((len(b), int(lengths.max())), PAD, dtype=torch.long)
+        x = torch.full((len(b), max(int(lengths.max()), MIN_BATCH_LEN)), PAD, dtype=torch.long)
         for j, i in enumerate(b):
             x[j, : len(encoded[i])] = torch.tensor(encoded[i])
         yield x, lengths, torch.tensor(labels[b]), b
