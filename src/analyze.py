@@ -110,7 +110,7 @@ def fig_ablation(summary, n_classes):
 
 
 def fig_cross_domain(summary):
-    ood = summary[(summary.held_out != "") & (summary.field == "output") & (summary.transform == "none")]
+    ood = summary[(summary["held_out"] != "") & (summary["field"] == "output") & (summary["transform"] == "none")]
     if ood.empty:
         return
     domains = sorted(ood.held_out.unique())

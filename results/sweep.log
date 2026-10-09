@@ -1,0 +1,354 @@
+
+=== 1/26 {'model': 'cnn', 'field': 'output', 'seed': 0}
+[cnn_output_none_s0] ep1 loss=2.204 val_acc=0.406 val_f1=0.302 (28s)
+[cnn_output_none_s0] ep2 loss=1.692 val_acc=0.566 val_f1=0.551 (51s)
+[cnn_output_none_s0] ep3 loss=1.471 val_acc=0.545 val_f1=0.514 (73s)
+[cnn_output_none_s0] ep4 loss=1.345 val_acc=0.566 val_f1=0.545 (97s)
+[cnn_output_none_s0] ep5 loss=1.205 val_acc=0.588 val_f1=0.580 (120s)
+[cnn_output_none_s0] ep6 loss=1.101 val_acc=0.552 val_f1=0.546 (142s)
+[cnn_output_none_s0] ep7 loss=1.001 val_acc=0.605 val_f1=0.576 (165s)
+[cnn_output_none_s0] ep8 loss=0.834 val_acc=0.604 val_f1=0.584 (188s)
+[cnn_output_none_s0] ep9 loss=0.768 val_acc=0.615 val_f1=0.599 (210s)
+[cnn_output_none_s0] ep10 loss=0.684 val_acc=0.604 val_f1=0.599 (233s)
+[cnn_output_none_s0] TEST acc=0.626 f1=0.604
+
+=== 2/26 {'model': 'cnn', 'field': 'output', 'seed': 1}
+--- restart Fri Oct  9 01:55:36 EDT 2026
+
+=== 1/26 {'model': 'cnn', 'field': 'output', 'seed': 0, 'epochs': 20, 'patience': 3}
+[cnn_output_none_s0] ep1 loss=2.204 val_acc=0.403 val_f1=0.298 (28s)
+[cnn_output_none_s0] ep2 loss=1.690 val_acc=0.563 val_f1=0.546 (51s)
+[cnn_output_none_s0] ep3 loss=1.471 val_acc=0.545 val_f1=0.514 (73s)
+[cnn_output_none_s0] ep4 loss=1.348 val_acc=0.572 val_f1=0.553 (96s)
+[cnn_output_none_s0] ep5 loss=1.204 val_acc=0.587 val_f1=0.578 (120s)
+[cnn_output_none_s0] ep6 loss=1.104 val_acc=0.560 val_f1=0.553 (143s)
+[cnn_output_none_s0] ep7 loss=1.003 val_acc=0.611 val_f1=0.584 (167s)
+[cnn_output_none_s0] ep8 loss=0.835 val_acc=0.592 val_f1=0.569 (191s)
+[cnn_output_none_s0] ep9 loss=0.772 val_acc=0.616 val_f1=0.599 (214s)
+[cnn_output_none_s0] ep10 loss=0.682 val_acc=0.607 val_f1=0.603 (238s)
+[cnn_output_none_s0] ep11 loss=0.580 val_acc=0.551 val_f1=0.534 (263s)
+[cnn_output_none_s0] ep12 loss=0.529 val_acc=0.577 val_f1=0.551 (291s)
+[cnn_output_none_s0] ep13 loss=0.447 val_acc=0.598 val_f1=0.574 (316s)
+[cnn_output_none_s0] TEST acc=0.603 f1=0.589
+
+=== 2/26 {'model': 'cnn', 'field': 'output', 'seed': 1, 'epochs': 20, 'patience': 3}
+[cnn_output_none_s1] ep1 loss=2.239 val_acc=0.438 val_f1=0.367 (23s)
+[cnn_output_none_s1] ep2 loss=1.688 val_acc=0.575 val_f1=0.548 (45s)
+[cnn_output_none_s1] ep3 loss=1.475 val_acc=0.589 val_f1=0.555 (67s)
+[cnn_output_none_s1] ep4 loss=1.345 val_acc=0.561 val_f1=0.540 (90s)
+[cnn_output_none_s1] ep5 loss=1.245 val_acc=0.580 val_f1=0.590 (112s)
+[cnn_output_none_s1] ep6 loss=1.114 val_acc=0.517 val_f1=0.475 (134s)
+[cnn_output_none_s1] ep7 loss=1.010 val_acc=0.627 val_f1=0.619 (157s)
+[cnn_output_none_s1] ep8 loss=0.885 val_acc=0.592 val_f1=0.565 (180s)
+[cnn_output_none_s1] ep9 loss=0.792 val_acc=0.578 val_f1=0.563 (203s)
+[cnn_output_none_s1] ep10 loss=0.704 val_acc=0.610 val_f1=0.593 (226s)
+[cnn_output_none_s1] TEST acc=0.624 f1=0.613
+
+=== 3/26 {'model': 'cnn', 'field': 'output', 'seed': 2, 'epochs': 20, 'patience': 3}
+[cnn_output_none_s2] ep1 loss=2.310 val_acc=0.361 val_f1=0.315 (23s)
+[cnn_output_none_s2] ep2 loss=1.662 val_acc=0.525 val_f1=0.503 (47s)
+[cnn_output_none_s2] ep3 loss=1.474 val_acc=0.511 val_f1=0.482 (69s)
+[cnn_output_none_s2] ep4 loss=1.301 val_acc=0.573 val_f1=0.542 (92s)
+[cnn_output_none_s2] ep5 loss=1.211 val_acc=0.605 val_f1=0.580 (114s)
+[cnn_output_none_s2] ep6 loss=1.139 val_acc=0.599 val_f1=0.574 (137s)
+[cnn_output_none_s2] ep7 loss=0.955 val_acc=0.575 val_f1=0.541 (159s)
+[cnn_output_none_s2] ep8 loss=0.858 val_acc=0.555 val_f1=0.504 (182s)
+[cnn_output_none_s2] TEST acc=0.606 f1=0.577
+
+=== 4/26 {'model': 'lstm', 'field': 'output', 'epochs': 6, 'patience': 2}
+[lstm_output_none_s0] ep1 loss=1.958 val_acc=0.440 val_f1=0.375 (466s)
+[lstm_output_none_s0] ep2 loss=1.625 val_acc=0.497 val_f1=0.442 (942s)
+[lstm_output_none_s0] ep3 loss=1.382 val_acc=0.529 val_f1=0.464 (1418s)
+[lstm_output_none_s0] ep4 loss=1.219 val_acc=0.597 val_f1=0.602 (1892s)
+[lstm_output_none_s0] ep5 loss=1.104 val_acc=0.575 val_f1=0.567 (2366s)
+[lstm_output_none_s0] ep6 loss=0.998 val_acc=0.630 val_f1=0.621 (2844s)
+[lstm_output_none_s0] TEST acc=0.638 f1=0.626
+
+=== 5/26 {'model': 'cnn', 'field': 'input', 'seed': 0, 'epochs': 20, 'patience': 3}
+[cnn_input_none_s0] ep1 loss=2.368 val_acc=0.140 val_f1=0.044 (13s)
+[cnn_input_none_s0] ep2 loss=2.196 val_acc=0.125 val_f1=0.059 (23s)
+[cnn_input_none_s0] ep3 loss=2.108 val_acc=0.127 val_f1=0.068 (32s)
+[cnn_input_none_s0] ep4 loss=2.036 val_acc=0.121 val_f1=0.088 (41s)
+[cnn_input_none_s0] ep5 loss=1.977 val_acc=0.121 val_f1=0.109 (50s)
+[cnn_input_none_s0] ep6 loss=1.879 val_acc=0.122 val_f1=0.113 (59s)
+[cnn_input_none_s0] ep7 loss=1.780 val_acc=0.129 val_f1=0.117 (68s)
+[cnn_input_none_s0] ep8 loss=1.670 val_acc=0.122 val_f1=0.115 (77s)
+[cnn_input_none_s0] ep9 loss=1.565 val_acc=0.127 val_f1=0.115 (86s)
+[cnn_input_none_s0] ep10 loss=1.479 val_acc=0.122 val_f1=0.111 (95s)
+[cnn_input_none_s0] TEST acc=0.119 f1=0.108
+
+=== 6/26 {'model': 'cnn', 'field': 'input', 'seed': 1, 'epochs': 20, 'patience': 3}
+[cnn_input_none_s1] ep1 loss=2.406 val_acc=0.130 val_f1=0.063 (9s)
+[cnn_input_none_s1] ep2 loss=2.182 val_acc=0.121 val_f1=0.072 (18s)
+[cnn_input_none_s1] ep3 loss=2.107 val_acc=0.125 val_f1=0.076 (27s)
+[cnn_input_none_s1] ep4 loss=2.035 val_acc=0.124 val_f1=0.098 (37s)
+[cnn_input_none_s1] ep5 loss=1.977 val_acc=0.131 val_f1=0.073 (46s)
+[cnn_input_none_s1] ep6 loss=1.886 val_acc=0.135 val_f1=0.100 (55s)
+[cnn_input_none_s1] ep7 loss=1.763 val_acc=0.129 val_f1=0.110 (64s)
+[cnn_input_none_s1] ep8 loss=1.675 val_acc=0.130 val_f1=0.122 (73s)
+[cnn_input_none_s1] ep9 loss=1.568 val_acc=0.127 val_f1=0.123 (82s)
+[cnn_input_none_s1] ep10 loss=1.485 val_acc=0.127 val_f1=0.119 (92s)
+[cnn_input_none_s1] ep11 loss=1.395 val_acc=0.132 val_f1=0.127 (101s)
+[cnn_input_none_s1] ep12 loss=1.348 val_acc=0.121 val_f1=0.113 (110s)
+[cnn_input_none_s1] ep13 loss=1.281 val_acc=0.125 val_f1=0.118 (119s)
+[cnn_input_none_s1] ep14 loss=1.249 val_acc=0.129 val_f1=0.116 (129s)
+[cnn_input_none_s1] TEST acc=0.137 f1=0.131
+
+=== 7/26 {'model': 'cnn', 'field': 'input', 'seed': 2, 'epochs': 20, 'patience': 3}
+[cnn_input_none_s2] ep1 loss=2.380 val_acc=0.118 val_f1=0.069 (10s)
+[cnn_input_none_s2] ep2 loss=2.182 val_acc=0.128 val_f1=0.095 (19s)
+[cnn_input_none_s2] ep3 loss=2.088 val_acc=0.129 val_f1=0.064 (29s)
+[cnn_input_none_s2] ep4 loss=2.025 val_acc=0.123 val_f1=0.059 (38s)
+[cnn_input_none_s2] ep5 loss=1.971 val_acc=0.127 val_f1=0.087 (47s)
+[cnn_input_none_s2] TEST acc=0.135 f1=0.090
+
+=== 8/26 {'model': 'cnn', 'field': 'both', 'seed': 0, 'epochs': 20, 'patience': 3}
+[cnn_both_none_s0] ep1 loss=1.991 val_acc=0.515 val_f1=0.500 (35s)
+[cnn_both_none_s0] ep2 loss=1.504 val_acc=0.538 val_f1=0.517 (60s)
+[cnn_both_none_s0] ep3 loss=1.338 val_acc=0.575 val_f1=0.552 (86s)
+[cnn_both_none_s0] ep4 loss=1.195 val_acc=0.593 val_f1=0.578 (112s)
+[cnn_both_none_s0] ep5 loss=1.068 val_acc=0.622 val_f1=0.618 (138s)
+[cnn_both_none_s0] ep6 loss=0.964 val_acc=0.614 val_f1=0.613 (165s)
+[cnn_both_none_s0] ep7 loss=0.880 val_acc=0.617 val_f1=0.600 (190s)
+[cnn_both_none_s0] ep8 loss=0.760 val_acc=0.636 val_f1=0.631 (216s)
+[cnn_both_none_s0] ep9 loss=0.643 val_acc=0.630 val_f1=0.618 (242s)
+[cnn_both_none_s0] ep10 loss=0.569 val_acc=0.616 val_f1=0.611 (268s)
+[cnn_both_none_s0] ep11 loss=0.505 val_acc=0.619 val_f1=0.615 (295s)
+[cnn_both_none_s0] TEST acc=0.644 f1=0.637
+
+=== 9/26 {'model': 'cnn', 'field': 'both', 'seed': 1, 'epochs': 20, 'patience': 3}
+[cnn_both_none_s1] ep1 loss=2.050 val_acc=0.477 val_f1=0.462 (27s)
+[cnn_both_none_s1] ep2 loss=1.504 val_acc=0.551 val_f1=0.538 (53s)
+[cnn_both_none_s1] ep3 loss=1.369 val_acc=0.542 val_f1=0.537 (79s)
+[cnn_both_none_s1] ep4 loss=1.215 val_acc=0.584 val_f1=0.557 (105s)
+[cnn_both_none_s1] ep5 loss=1.088 val_acc=0.621 val_f1=0.608 (131s)
+[cnn_both_none_s1] ep6 loss=0.977 val_acc=0.572 val_f1=0.535 (156s)
+[cnn_both_none_s1] ep7 loss=0.874 val_acc=0.574 val_f1=0.569 (182s)
+[cnn_both_none_s1] ep8 loss=0.780 val_acc=0.619 val_f1=0.630 (208s)
+[cnn_both_none_s1] ep9 loss=0.692 val_acc=0.625 val_f1=0.615 (234s)
+[cnn_both_none_s1] ep10 loss=0.604 val_acc=0.604 val_f1=0.588 (260s)
+[cnn_both_none_s1] ep11 loss=0.526 val_acc=0.634 val_f1=0.625 (287s)
+[cnn_both_none_s1] TEST acc=0.621 f1=0.628
+
+=== 10/26 {'model': 'cnn', 'field': 'both', 'seed': 2, 'epochs': 20, 'patience': 3}
+[cnn_both_none_s2] ep1 loss=2.013 val_acc=0.384 val_f1=0.345 (27s)
+[cnn_both_none_s2] ep2 loss=1.522 val_acc=0.526 val_f1=0.497 (51s)
+[cnn_both_none_s2] ep3 loss=1.334 val_acc=0.506 val_f1=0.493 (76s)
+[cnn_both_none_s2] ep4 loss=1.208 val_acc=0.610 val_f1=0.608 (103s)
+[cnn_both_none_s2] ep5 loss=1.083 val_acc=0.637 val_f1=0.631 (128s)
+[cnn_both_none_s2] ep6 loss=0.960 val_acc=0.573 val_f1=0.553 (153s)
+[cnn_both_none_s2] ep7 loss=0.862 val_acc=0.589 val_f1=0.563 (178s)
+[cnn_both_none_s2] ep8 loss=0.737 val_acc=0.611 val_f1=0.597 (202s)
+[cnn_both_none_s2] TEST acc=0.637 f1=0.630
+
+=== 11/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 0, 'epochs': 20, 'patience': 3}
+[cnn_output_no_markdown_s0] ep1 loss=2.193 val_acc=0.404 val_f1=0.348 (26s)
+[cnn_output_no_markdown_s0] ep2 loss=1.721 val_acc=0.421 val_f1=0.419 (48s)
+[cnn_output_no_markdown_s0] ep3 loss=1.575 val_acc=0.514 val_f1=0.506 (70s)
+[cnn_output_no_markdown_s0] ep4 loss=1.420 val_acc=0.526 val_f1=0.531 (92s)
+[cnn_output_no_markdown_s0] ep5 loss=1.304 val_acc=0.574 val_f1=0.570 (113s)
+[cnn_output_no_markdown_s0] ep6 loss=1.179 val_acc=0.491 val_f1=0.479 (135s)
+[cnn_output_no_markdown_s0] ep7 loss=1.077 val_acc=0.579 val_f1=0.560 (157s)
+[cnn_output_no_markdown_s0] ep8 loss=0.919 val_acc=0.572 val_f1=0.559 (178s)
+[cnn_output_no_markdown_s0] TEST acc=0.567 f1=0.559
+
+=== 12/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 1, 'epochs': 20, 'patience': 3}
+[cnn_output_no_markdown_s1] ep1 loss=2.222 val_acc=0.408 val_f1=0.350 (22s)
+[cnn_output_no_markdown_s1] ep2 loss=1.745 val_acc=0.462 val_f1=0.451 (44s)
+[cnn_output_no_markdown_s1] ep3 loss=1.557 val_acc=0.561 val_f1=0.552 (65s)
+[cnn_output_no_markdown_s1] ep4 loss=1.426 val_acc=0.535 val_f1=0.521 (87s)
+[cnn_output_no_markdown_s1] ep5 loss=1.308 val_acc=0.536 val_f1=0.525 (109s)
+[cnn_output_no_markdown_s1] ep6 loss=1.192 val_acc=0.552 val_f1=0.536 (131s)
+[cnn_output_no_markdown_s1] TEST acc=0.544 f1=0.533
+
+=== 13/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 2, 'epochs': 20, 'patience': 3}
+[cnn_output_no_markdown_s2] ep1 loss=2.180 val_acc=0.467 val_f1=0.456 (22s)
+[cnn_output_no_markdown_s2] ep2 loss=1.691 val_acc=0.484 val_f1=0.481 (44s)
+[cnn_output_no_markdown_s2] ep3 loss=1.520 val_acc=0.512 val_f1=0.497 (65s)
+[cnn_output_no_markdown_s2] ep4 loss=1.383 val_acc=0.524 val_f1=0.527 (87s)
+[cnn_output_no_markdown_s2] ep5 loss=1.277 val_acc=0.550 val_f1=0.548 (109s)
+[cnn_output_no_markdown_s2] ep6 loss=1.174 val_acc=0.571 val_f1=0.563 (131s)
+[cnn_output_no_markdown_s2] ep7 loss=1.029 val_acc=0.542 val_f1=0.509 (153s)
+[cnn_output_no_markdown_s2] ep8 loss=0.950 val_acc=0.564 val_f1=0.547 (174s)
+[cnn_output_no_markdown_s2] ep9 loss=0.801 val_acc=0.590 val_f1=0.588 (196s)
+[cnn_output_no_markdown_s2] ep10 loss=0.725 val_acc=0.575 val_f1=0.564 (218s)
+[cnn_output_no_markdown_s2] ep11 loss=0.635 val_acc=0.573 val_f1=0.562 (239s)
+[cnn_output_no_markdown_s2] ep12 loss=0.563 val_acc=0.579 val_f1=0.568 (261s)
+[cnn_output_no_markdown_s2] TEST acc=0.574 f1=0.569
+
+=== 14/26 {'model': 'cnn', 'field': 'output', 'transform': 'words_only', 'seed': 0, 'epochs': 20, 'patience': 3}
+/AppleInternal/Library/BuildRoots/4~CV2SugCn9TgBfrVXOModdCDrcU2-hjAJmKRYBaA/Library/Caches/com.apple.xbs/TemporaryDirectory.nZ8QWc/Sources/MetalPerformanceShaders/MPSNDArray/Kernels/MPSNDArrayConvolutionA14.mm:4629: failed assertion `Weights tensor and ndArray input channel mismatch'
+--- restart Fri Oct  9 04:40:50 EDT 2026 (MPS length-1 fix)
+
+=== 1/26 {'model': 'cnn', 'field': 'output', 'seed': 0, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_none_s0 (exists)
+
+=== 2/26 {'model': 'cnn', 'field': 'output', 'seed': 1, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_none_s1 (exists)
+
+=== 3/26 {'model': 'cnn', 'field': 'output', 'seed': 2, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_none_s2 (exists)
+
+=== 4/26 {'model': 'lstm', 'field': 'output', 'epochs': 6, 'patience': 2}
+[skip] lstm_output_none_s0 (exists)
+
+=== 5/26 {'model': 'cnn', 'field': 'input', 'seed': 0, 'epochs': 20, 'patience': 3}
+[skip] cnn_input_none_s0 (exists)
+
+=== 6/26 {'model': 'cnn', 'field': 'input', 'seed': 1, 'epochs': 20, 'patience': 3}
+[skip] cnn_input_none_s1 (exists)
+
+=== 7/26 {'model': 'cnn', 'field': 'input', 'seed': 2, 'epochs': 20, 'patience': 3}
+[skip] cnn_input_none_s2 (exists)
+
+=== 8/26 {'model': 'cnn', 'field': 'both', 'seed': 0, 'epochs': 20, 'patience': 3}
+[skip] cnn_both_none_s0 (exists)
+
+=== 9/26 {'model': 'cnn', 'field': 'both', 'seed': 1, 'epochs': 20, 'patience': 3}
+[skip] cnn_both_none_s1 (exists)
+
+=== 10/26 {'model': 'cnn', 'field': 'both', 'seed': 2, 'epochs': 20, 'patience': 3}
+[skip] cnn_both_none_s2 (exists)
+
+=== 11/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 0, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_no_markdown_s0 (exists)
+
+=== 12/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 1, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_no_markdown_s1 (exists)
+
+=== 13/26 {'model': 'cnn', 'field': 'output', 'transform': 'no_markdown', 'seed': 2, 'epochs': 20, 'patience': 3}
+[skip] cnn_output_no_markdown_s2 (exists)
+
+=== 14/26 {'model': 'cnn', 'field': 'output', 'transform': 'words_only', 'seed': 0, 'epochs': 20, 'patience': 3}
+[cnn_output_words_only_s0] ep1 loss=2.291 val_acc=0.275 val_f1=0.260 (29s)
+[cnn_output_words_only_s0] ep2 loss=1.896 val_acc=0.381 val_f1=0.338 (50s)
+[cnn_output_words_only_s0] ep3 loss=1.748 val_acc=0.481 val_f1=0.477 (70s)
+[cnn_output_words_only_s0] ep4 loss=1.658 val_acc=0.433 val_f1=0.434 (91s)
+[cnn_output_words_only_s0] ep5 loss=1.565 val_acc=0.448 val_f1=0.432 (111s)
+[cnn_output_words_only_s0] ep6 loss=1.474 val_acc=0.376 val_f1=0.376 (132s)
+[cnn_output_words_only_s0] TEST acc=0.477 f1=0.469
+
+=== 15/26 {'model': 'cnn', 'field': 'output', 'transform': 'words_only', 'seed': 1, 'epochs': 20, 'patience': 3}
+[cnn_output_words_only_s1] ep1 loss=2.315 val_acc=0.292 val_f1=0.247 (21s)
+[cnn_output_words_only_s1] ep2 loss=1.911 val_acc=0.392 val_f1=0.355 (41s)
+[cnn_output_words_only_s1] ep3 loss=1.736 val_acc=0.448 val_f1=0.414 (61s)
+[cnn_output_words_only_s1] ep4 loss=1.657 val_acc=0.438 val_f1=0.439 (82s)
+[cnn_output_words_only_s1] ep5 loss=1.564 val_acc=0.491 val_f1=0.479 (102s)
+[cnn_output_words_only_s1] ep6 loss=1.467 val_acc=0.420 val_f1=0.411 (122s)
+[cnn_output_words_only_s1] ep7 loss=1.386 val_acc=0.474 val_f1=0.464 (142s)
+[cnn_output_words_only_s1] ep8 loss=1.241 val_acc=0.478 val_f1=0.474 (163s)
+[cnn_output_words_only_s1] TEST acc=0.486 f1=0.466
+
+=== 16/26 {'model': 'cnn', 'field': 'output', 'transform': 'words_only', 'seed': 2, 'epochs': 20, 'patience': 3}
+[cnn_output_words_only_s2] ep1 loss=2.299 val_acc=0.259 val_f1=0.179 (20s)
+[cnn_output_words_only_s2] ep2 loss=1.879 val_acc=0.330 val_f1=0.301 (40s)
+[cnn_output_words_only_s2] ep3 loss=1.758 val_acc=0.388 val_f1=0.383 (61s)
+[cnn_output_words_only_s2] ep4 loss=1.670 val_acc=0.438 val_f1=0.434 (81s)
+[cnn_output_words_only_s2] ep5 loss=1.567 val_acc=0.478 val_f1=0.470 (101s)
+[cnn_output_words_only_s2] ep6 loss=1.485 val_acc=0.424 val_f1=0.432 (121s)
+[cnn_output_words_only_s2] ep7 loss=1.359 val_acc=0.503 val_f1=0.504 (141s)
+[cnn_output_words_only_s2] ep8 loss=1.210 val_acc=0.457 val_f1=0.466 (161s)
+[cnn_output_words_only_s2] ep9 loss=1.122 val_acc=0.500 val_f1=0.498 (182s)
+[cnn_output_words_only_s2] ep10 loss=0.995 val_acc=0.473 val_f1=0.451 (202s)
+[cnn_output_words_only_s2] TEST acc=0.482 f1=0.482
+
+=== 17/26 {'model': 'cnn', 'field': 'output', 'held_out': 'code', 'epochs': 20, 'patience': 3}
+[cnn_output_none_ood-code_s0] ep1 loss=2.260 val_acc=0.447 val_f1=0.436 (17s)
+[cnn_output_none_ood-code_s0] ep2 loss=1.638 val_acc=0.549 val_f1=0.527 (32s)
+[cnn_output_none_ood-code_s0] ep3 loss=1.508 val_acc=0.574 val_f1=0.569 (47s)
+[cnn_output_none_ood-code_s0] ep4 loss=1.409 val_acc=0.511 val_f1=0.487 (61s)
+[cnn_output_none_ood-code_s0] ep5 loss=1.306 val_acc=0.616 val_f1=0.610 (76s)
+[cnn_output_none_ood-code_s0] ep6 loss=1.189 val_acc=0.562 val_f1=0.533 (90s)
+[cnn_output_none_ood-code_s0] ep7 loss=1.050 val_acc=0.582 val_f1=0.565 (105s)
+[cnn_output_none_ood-code_s0] ep8 loss=0.950 val_acc=0.610 val_f1=0.598 (119s)
+[cnn_output_none_ood-code_s0] TEST acc=0.627 f1=0.615 | OOD acc=0.568 f1=0.564
+
+=== 18/26 {'model': 'cnn', 'field': 'output', 'held_out': 'math', 'epochs': 20, 'patience': 3}
+[cnn_output_none_ood-math_s0] ep1 loss=2.243 val_acc=0.423 val_f1=0.365 (24s)
+[cnn_output_none_ood-math_s0] ep2 loss=1.646 val_acc=0.509 val_f1=0.449 (45s)
+[cnn_output_none_ood-math_s0] ep3 loss=1.527 val_acc=0.480 val_f1=0.414 (66s)
+[cnn_output_none_ood-math_s0] ep4 loss=1.333 val_acc=0.589 val_f1=0.574 (88s)
+[cnn_output_none_ood-math_s0] ep5 loss=1.217 val_acc=0.565 val_f1=0.558 (109s)
+[cnn_output_none_ood-math_s0] ep6 loss=1.099 val_acc=0.596 val_f1=0.577 (130s)
+[cnn_output_none_ood-math_s0] ep7 loss=0.992 val_acc=0.583 val_f1=0.569 (151s)
+[cnn_output_none_ood-math_s0] ep8 loss=0.878 val_acc=0.548 val_f1=0.521 (173s)
+[cnn_output_none_ood-math_s0] ep9 loss=0.771 val_acc=0.608 val_f1=0.603 (194s)
+[cnn_output_none_ood-math_s0] ep10 loss=0.691 val_acc=0.584 val_f1=0.567 (215s)
+[cnn_output_none_ood-math_s0] ep11 loss=0.588 val_acc=0.593 val_f1=0.573 (237s)
+[cnn_output_none_ood-math_s0] ep12 loss=0.511 val_acc=0.600 val_f1=0.587 (258s)
+[cnn_output_none_ood-math_s0] TEST acc=0.622 f1=0.615 | OOD acc=0.590 f1=0.570
+
+=== 19/26 {'model': 'cnn', 'field': 'output', 'held_out': 'writing', 'epochs': 20, 'patience': 3}
+[cnn_output_none_ood-writing_s0] ep1 loss=2.201 val_acc=0.444 val_f1=0.398 (23s)
+[cnn_output_none_ood-writing_s0] ep2 loss=1.649 val_acc=0.444 val_f1=0.409 (43s)
+[cnn_output_none_ood-writing_s0] ep3 loss=1.499 val_acc=0.570 val_f1=0.572 (64s)
+[cnn_output_none_ood-writing_s0] ep4 loss=1.319 val_acc=0.523 val_f1=0.484 (85s)
+[cnn_output_none_ood-writing_s0] ep5 loss=1.247 val_acc=0.616 val_f1=0.602 (106s)
+[cnn_output_none_ood-writing_s0] ep6 loss=1.107 val_acc=0.590 val_f1=0.556 (127s)
+[cnn_output_none_ood-writing_s0] ep7 loss=0.950 val_acc=0.594 val_f1=0.590 (147s)
+[cnn_output_none_ood-writing_s0] ep8 loss=0.868 val_acc=0.633 val_f1=0.618 (168s)
+[cnn_output_none_ood-writing_s0] ep9 loss=0.788 val_acc=0.637 val_f1=0.629 (189s)
+[cnn_output_none_ood-writing_s0] ep10 loss=0.648 val_acc=0.616 val_f1=0.591 (210s)
+[cnn_output_none_ood-writing_s0] ep11 loss=0.576 val_acc=0.622 val_f1=0.626 (231s)
+[cnn_output_none_ood-writing_s0] ep12 loss=0.508 val_acc=0.614 val_f1=0.609 (252s)
+[cnn_output_none_ood-writing_s0] TEST acc=0.620 f1=0.609 | OOD acc=0.505 f1=0.492
+
+=== 20/26 {'model': 'lstm', 'field': 'input', 'epochs': 6, 'patience': 2}
+[lstm_input_none_s0] ep1 loss=2.116 val_acc=0.139 val_f1=0.049 (39s)
+[lstm_input_none_s0] ep2 loss=2.099 val_acc=0.122 val_f1=0.030 (78s)
+[lstm_input_none_s0] ep3 loss=2.082 val_acc=0.128 val_f1=0.029 (117s)
+[lstm_input_none_s0] TEST acc=0.117 f1=0.045
+
+=== 21/26 {'model': 'lstm', 'field': 'both', 'epochs': 6, 'patience': 2}
+[lstm_both_none_s0] ep1 loss=1.872 val_acc=0.425 val_f1=0.403 (517s)
+[lstm_both_none_s0] ep2 loss=1.477 val_acc=0.532 val_f1=0.512 (1033s)
+[lstm_both_none_s0] ep3 loss=1.261 val_acc=0.585 val_f1=0.578 (1550s)
+[lstm_both_none_s0] ep4 loss=1.110 val_acc=0.556 val_f1=0.511 (2068s)
+[lstm_both_none_s0] ep5 loss=1.001 val_acc=0.624 val_f1=0.610 (2584s)
+[lstm_both_none_s0] ep6 loss=0.918 val_acc=0.648 val_f1=0.643 (3101s)
+[lstm_both_none_s0] TEST acc=0.652 f1=0.645
+
+=== 22/26 {'model': 'lstm', 'field': 'output', 'transform': 'no_markdown', 'epochs': 6, 'patience': 2}
+[lstm_output_no_markdown_s0] ep1 loss=2.014 val_acc=0.254 val_f1=0.207 (427s)
+[lstm_output_no_markdown_s0] ep2 loss=1.667 val_acc=0.441 val_f1=0.410 (850s)
+[lstm_output_no_markdown_s0] ep3 loss=1.464 val_acc=0.505 val_f1=0.495 (1275s)
+[lstm_output_no_markdown_s0] ep4 loss=1.283 val_acc=0.533 val_f1=0.528 (1699s)
+[lstm_output_no_markdown_s0] ep5 loss=1.178 val_acc=0.565 val_f1=0.560 (2123s)
+[lstm_output_no_markdown_s0] ep6 loss=1.090 val_acc=0.562 val_f1=0.550 (2547s)
+[lstm_output_no_markdown_s0] TEST acc=0.562 f1=0.556
+
+=== 23/26 {'model': 'lstm', 'field': 'output', 'transform': 'words_only', 'epochs': 6, 'patience': 2}
+[lstm_output_words_only_s0] ep1 loss=2.081 val_acc=0.203 val_f1=0.149 (367s)
+[lstm_output_words_only_s0] ep2 loss=1.873 val_acc=0.433 val_f1=0.430 (735s)
+[lstm_output_words_only_s0] ep3 loss=1.602 val_acc=0.460 val_f1=0.448 (1102s)
+[lstm_output_words_only_s0] ep4 loss=1.439 val_acc=0.475 val_f1=0.464 (1469s)
+[lstm_output_words_only_s0] ep5 loss=1.321 val_acc=0.510 val_f1=0.504 (1837s)
+[lstm_output_words_only_s0] ep6 loss=1.193 val_acc=0.460 val_f1=0.461 (2205s)
+[lstm_output_words_only_s0] TEST acc=0.534 f1=0.523
+
+=== 24/26 {'model': 'lstm', 'field': 'output', 'held_out': 'code', 'epochs': 6, 'patience': 2}
+[lstm_output_none_ood-code_s0] ep1 loss=2.005 val_acc=0.392 val_f1=0.365 (283s)
+[lstm_output_none_ood-code_s0] ep2 loss=1.654 val_acc=0.389 val_f1=0.345 (566s)
+[lstm_output_none_ood-code_s0] ep3 loss=1.466 val_acc=0.438 val_f1=0.394 (849s)
+[lstm_output_none_ood-code_s0] ep4 loss=1.322 val_acc=0.514 val_f1=0.471 (1133s)
+[lstm_output_none_ood-code_s0] ep5 loss=1.172 val_acc=0.508 val_f1=0.473 (1416s)
+[lstm_output_none_ood-code_s0] ep6 loss=1.076 val_acc=0.566 val_f1=0.544 (1700s)
+[lstm_output_none_ood-code_s0] TEST acc=0.551 f1=0.525 | OOD acc=0.486 f1=0.463
+
+=== 25/26 {'model': 'lstm', 'field': 'output', 'held_out': 'math', 'epochs': 6, 'patience': 2}
+[lstm_output_none_ood-math_s0] ep1 loss=1.957 val_acc=0.382 val_f1=0.297 (428s)
+[lstm_output_none_ood-math_s0] ep2 loss=1.635 val_acc=0.444 val_f1=0.401 (857s)
+[lstm_output_none_ood-math_s0] ep3 loss=1.462 val_acc=0.494 val_f1=0.440 (1287s)
+[lstm_output_none_ood-math_s0] ep4 loss=1.273 val_acc=0.557 val_f1=0.550 (1716s)
+[lstm_output_none_ood-math_s0] ep5 loss=1.143 val_acc=0.575 val_f1=0.572 (2144s)
+[lstm_output_none_ood-math_s0] ep6 loss=1.031 val_acc=0.590 val_f1=0.573 (2574s)
+[lstm_output_none_ood-math_s0] TEST acc=0.590 f1=0.563 | OOD acc=0.549 f1=0.521
+
+=== 26/26 {'model': 'lstm', 'field': 'output', 'held_out': 'writing', 'epochs': 6, 'patience': 2}
+[lstm_output_none_ood-writing_s0] ep1 loss=1.943 val_acc=0.321 val_f1=0.278 (424s)
+[lstm_output_none_ood-writing_s0] ep2 loss=1.619 val_acc=0.391 val_f1=0.351 (847s)
+[lstm_output_none_ood-writing_s0] ep3 loss=1.401 val_acc=0.527 val_f1=0.466 (1270s)
+[lstm_output_none_ood-writing_s0] ep4 loss=1.196 val_acc=0.544 val_f1=0.528 (1692s)
+[lstm_output_none_ood-writing_s0] ep5 loss=1.092 val_acc=0.624 val_f1=0.612 (2115s)
+[lstm_output_none_ood-writing_s0] ep6 loss=1.004 val_acc=0.595 val_f1=0.570 (2537s)
+[lstm_output_none_ood-writing_s0] TEST acc=0.629 f1=0.612 | OOD acc=0.523 f1=0.509
