@@ -20,5 +20,5 @@ src/       code
 data/      processed dataset (raw downloads in data/raw/, gitignored)
 results/   metrics
 figures/   plots used in the report
-report/    project report (PDF)
+report/    project report: report.pdf (built from report.md by build.sh)
 ```
