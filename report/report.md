@@ -350,14 +350,15 @@ about the absolute numbers.
 2. **Always train a simple baseline.** We added TF-IDF + logistic regression as an afterthought,
    and it beat both neural models by a wide margin. Without it, the report would have presented
    0.6 macro-F1 as "good" without context.
-3. **Design long experiments to survive interruptions.** The computer crashed midway through the
-   first session, and later the experiment sweep died on run 14 of 26. Because each run writes its
-   own result file and the runner skips finished runs, recovering meant re-running one command and
-   losing at most one run.
-4. **Hardware choices shape the experiments.** On Apple's MPS backend the LSTM was ~20× slower
-   than the CNN, which forced fewer seeds and epochs for it, and therefore weaker conclusions about
-   the RNN. MPS also crashed on a 1-token batch (a case CPU handles fine); the fix was to pad every
-   batch to at least the widest convolution.
+3. **A bigger model is not automatically a better one.** The 4M-parameter networks drove their
+   training loss down steadily while validation F1 stalled within a few epochs: they were
+   memorizing the 25k training examples rather than learning more general patterns. Early
+   stopping on a validation set, dropout and averaging over seeds are what kept the comparisons
+   honest.
+4. **The architecture decides which signals a model can use.** The CNN's filters are local
+   n-gram detectors, so it leaned on short surface patterns and lost more when they were removed
+   (words-only: 0.47). The LSTM reads the sequence in order and held up better (0.52). Choosing
+   an architecture is also choosing what kind of evidence it can pick up.
 5. **Watch whether training is cut off by an arbitrary cap.** An early 10-epoch cap was stopping
    the CNN while validation F1 was still rising. Raising the cap and letting early stopping decide
    was a one-line change, but it would have silently biased every CNN result.
