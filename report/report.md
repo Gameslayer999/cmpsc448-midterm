@@ -341,30 +341,32 @@ about the absolute numbers.
 
 # 5. Lessons learned
 
-*[Draft prepared from the project log; to be revised in my own words.]*
-
-1. **Check how the data was collected before trusting a result.** The RQ2 input-only result is only
-   interpretable because the Arena assigns models at random. With a different collection process,
-   a high input-only score would have measured the dataset, not the models. Splitting by battle,
-   rather than by row, was needed for the same reason.
-2. **Always train a simple baseline.** We added TF-IDF + logistic regression as an afterthought,
-   and it beat both neural models by a wide margin. Without it, the report would have presented
-   0.6 macro-F1 as "good" without context.
-3. **A bigger model is not automatically a better one.** The 4M-parameter networks drove their
-   training loss down steadily while validation F1 stalled within a few epochs: they were
-   memorizing the 25k training examples rather than learning more general patterns. Early
-   stopping on a validation set, dropout and averaging over seeds are what kept the comparisons
-   honest.
-4. **The architecture decides which signals a model can use.** The CNN's filters are local
-   n-gram detectors, so it leaned on short surface patterns and lost more when they were removed
-   (words-only: 0.47). The LSTM reads the sequence in order and held up better (0.52). Choosing
-   an architecture is also choosing what kind of evidence it can pick up.
-5. **Watch whether training is cut off by an arbitrary cap.** An early 10-epoch cap was stopping
-   the CNN while validation F1 was still rising. Raising the cap and letting early stopping decide
-   was a one-line change, but it would have silently biased every CNN result.
-6. **Ablations answer "why" better than accuracy does.** Removing markdown and punctuation and
-   retraining gave a direct, quantitative answer to which signals matter, which descriptive
-   statistics alone could not.
+1. **Understand how the data was collected before trusting a result.** My input-only classifiers
+   scored at chance, and that only makes sense because the Arena sends each question to two
+   randomly chosen models. If each model had been given its own set of questions, a classifier
+   could have "identified the model" just by recognizing the question, measuring the dataset
+   instead of the models. That is also why I split the data by battle rather than by row.
+2. **Always compare against a simple baseline.** A plain TF-IDF + logistic regression model beat
+   both of my neural networks (0.75 vs about 0.6 macro-F1). Without it I would have reported 0.6 as
+   a good result with nothing to compare it to. Here the signal is mostly *which* words and symbols
+   appear, which is exactly what the simple model counts.
+3. **A bigger model is not automatically a better one.** My 4-million-parameter networks kept
+   lowering their training loss while their validation score stopped improving after a few epochs:
+   with only about 25,000 examples, they started memorizing the training data. Early stopping on a
+   validation set, dropout and repeating runs with different seeds were what kept my comparisons
+   fair.
+4. **The architecture decides which clues a model can use.** A CNN's filters look for short
+   phrases, so it relied on surface patterns and lost more when I removed formatting and
+   punctuation (0.47). The LSTM reads the text in order and held up better (0.52). Picking an
+   architecture also means picking what kind of evidence it can notice.
+5. **Make sure training isn't being cut off too early.** At first I capped CNN training at 10 epochs,
+   and the validation score was still rising when it stopped. Raising the cap and letting early
+   stopping decide changed every CNN result, which taught me to check the learning curves instead
+   of trusting a fixed number of epochs.
+6. **Removing information is the best way to answer "why".** Accuracy told me the models could tell
+   the LLMs apart, but not how. Retraining after stripping formatting, then punctuation and
+   capitalization, showed exactly how much each kind of clue was worth, and that word choice
+   alone still carries a strong fingerprint.
 
 # Appendix: reproducing the results
 
